@@ -13,6 +13,10 @@
 - Feature maps are flattened and concatenated.
 - Dense layers finalize classification using softmax.
 
+- Model Architecture:
+
+![Dual CNN Architecture](CNN_Arch.png)
+
 ### 3. **Training & Evaluation**
 - Trained using Adam optimizer and categorical cross-entropy.
 - Accuracy and loss are plotted for both training and validation.
@@ -22,8 +26,17 @@
 
 ## 📈 Results
 
-- Example Confusion Matrix:
+- Confusion Matrix:
 
 ![Confusion Matrix](confusion_matrix.png)
 
 ---
+
+- Accuracy and Loss Graph:
+
+![Accuracy graph and Loss graph](Acc_Loss.png)
+
+
+
+
+
